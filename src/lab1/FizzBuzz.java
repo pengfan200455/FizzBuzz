@@ -9,7 +9,7 @@ class FizzBuzz {
         doFizzBuzz();
     }
 
-    private static void doFizzBuzz() {
+    public static void doFizzBuzz() {
         for (int i = 1; i < 100; i++) {
 
             // Find out which numbers divide i.
